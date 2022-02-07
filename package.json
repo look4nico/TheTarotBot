@@ -1,0 +1,28 @@
+{
+  "name": "thetarotbot",
+  "version": "1.0.0",
+  "description": "A bot that can serve tarot readings thru mentions and DMs",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js",
+    "start": "node ./index.js",
+    "develop": " SET NODE_ENV=development & node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/look4nico/TheTarotBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/look4nico/TheTarotBot/issues"
+  },
+  "homepage": "https://github.com/look4nico/TheTarotBot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node": "^17.4.0",
+    "node-schedule": "^2.1.0",
+    "twit": "^2.2.11"
+  }
+}
